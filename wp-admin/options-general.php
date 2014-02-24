@@ -105,7 +105,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 <td><input name="siteurl" type="text" id="siteurl" value="<?php form_option('siteurl'); ?>"<?php disabled( defined( 'WP_SITEURL' ) ); ?> class="regular-text code<?php if ( defined( 'WP_SITEURL' ) ) echo ' disabled' ?>" /></td>
 </tr>
 <tr valign="top">
-<th scope="row"><label for="home"><?php _e('Site Address (URL)') ?></label></th>
+<th scope="row"><label for="home"><?php _e('http:://www.willflaherty.com/blog') ?></label></th>
 <td><input name="home" type="text" id="home" value="<?php form_option('home'); ?>"<?php disabled( defined( 'WP_HOME' ) ); ?> class="regular-text code<?php if ( defined( 'WP_HOME' ) ) echo ' disabled' ?>" />
 <p class="description"><?php _e('Enter the address here if you want your site homepage <a href="http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory">to be different from the directory</a> you installed WordPress.'); ?></p></td>
 </tr>
